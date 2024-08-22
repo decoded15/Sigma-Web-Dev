@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: aqua;
+        }
+
+        .yellow{
+            color: yellow;
+        }
+
+        .cred{
+            color: red;
+        }
+
+        .cpurple{
+            color: purple !important;   /*important overrides inline style */
+        }
+
+        /*
+        So, the order of specificity is:
+
+        Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector
+        */
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="yellow cred cpurple">CSS Specificity</h1>
+    </div>
+</body>
+</html>
