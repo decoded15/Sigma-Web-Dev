@@ -31,7 +31,8 @@
             box-sizing: border-box;
             /* width: 100vw; */
             width: 80vw;
-            height: 80vh;
+            /* height: 80vh; */
+            min-height: 80vh;
             margin: 25px auto;
             text-align: center;
             border: 2px solid black;
@@ -40,8 +41,17 @@
         }
 
         .container p {
-            /* font-size: 2em; */
-            font-size: 2rem;
+            /* font-size: 2em;  "container ka font size is 16px but container ke andar ka p ka font size is 32px" */ 
+            font-size: 2rem;  
+        }
+
+        .mycont{
+            border: 2px solid black;
+            box-sizing: border-box;
+            margin: 23px auto;
+            text-align: center;
+            font-size: 23px;
+            width: 80vw;
         }
     </style>
 </head>
@@ -57,6 +67,9 @@
             blanditiis libero dolorem nam, a in iure ipsam! Dignissimos possimus voluptates omnis officia, ex,
             perferendis recusandae voluptatem, fugiat amet odit itaque et iste incidunt voluptatum nobis!
         </p>
+    </div>
+    <div class="mycont">
+        <p>I am another container</p>
     </div>
 </body>
 
