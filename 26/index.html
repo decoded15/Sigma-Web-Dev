@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Overflow</title>
+    <style>
+        .box{
+            width: 30vw;
+            height: 10vh;
+            border: 2px solid black;
+            /* overflow: scroll; */  /*shows a scroll bar even if content is not overflowing*/
+            overflow: auto;  /*doesnt show a scroll bar if content is not overflowing*/
+            white-space: nowrap;
+            /* text-overflow: ellipsis; */  /*... dikhaega*/
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="box">
+        I am a good boy and i love to write Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos officiis maiores dicta unde perspiciatis eaque, consequatur fugit minima sapiente culpa, obcaecati fugiat optio dignissimos soluta ipsa, numquam id quidem nobis error dolor explicabo quo ducimus. Iste rerum voluptatum voluptate a blanditiis unde perferendis odit fugit?
+    </div>
 </body>
 </html>
