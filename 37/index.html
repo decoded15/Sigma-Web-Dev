@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        header{
+            position: sticky;
+            top: 0;
+        }
+        nav ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 10px 33px;
+
+        }
+
+        nav {
+            background-color: rgb(34, 134, 241);
+            height: 40px;
+            position: sticky;
+
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: green;
+            margin: 12px 34px;
+            text-align: center;
+            padding: 53px;
+        }
+
+        .box1 {
+            background-color: pink;
+            height: 70vh;
+            width: 45%;
+            display: inline-block;
+            margin: 15px;
+        }
+
+        main {
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+
+        .box2 {
+            background-color: blue;
+            height: 70vh;
+            width: 45%;
+            display: inline-block;
+            margin: 15px;
+
+        }
+
+        footer {
+            height: 90px;
+            background-color: bisque;
+        }
+
+        .text-box {
+            padding: 34px;
+            border: 2px solid white;
+            margin: 10vh 50vh;
+            text-align: center;
+            border-radius: 50px;
+        }
+
+        .orangebox{
+            height: 30px;
+            width: 30px;
+            border-radius: 60px;
+            position: fixed;
+            background-color: orange;
+            bottom: 12px;
+            right: 23px; 
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="box1"></div>
+            <div class="box2"></div>
+        </div>
+
+        <div class="text-box">
+            <p>Welcome to sigma web development Express</p>
+        </div>
+
+        <div class="orangebox">
+            
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
